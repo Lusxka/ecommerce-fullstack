@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-yellow{
+  background:#FFD700 ;
+}
+
+.headerWrapper .faixa{
+  padding: 8px 0px;
+}
+
+.headerWrapper .faixa p{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.headerWrapper .header{
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+}
+
+.logoWrapper img{
+  width: 80%;
+  margin-left: -20%;
+}
+
+.headerWrapper .header .part2 .countryDrop{
+  width: 150px;
+  height: 60px;
+  min-width: 150px;
+  color: #000 !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 7px !important;
+  padding: 10px 20px !important;
+}
+
+.headerWrapper .header .part2 .countryDrop{
+  text-align: left;
+  justify-content: flex-start !important;
+}
+
+.headerWrapper .header .part2 .countryDrop .label{
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0,0,0,0.4) !important;
+}
+
+.headerWrapper .header .part2 .countryDrop .name{
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: #1B262C !important;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDrop .span.ml-auto svg{
+  opacity: 0.7;
+}
+
+.header .headerSearch{
+  width: 60%;
+  height: 60px;
+  background: color #f3f4f7; ;
+  padding: 10px;
+  position: relative;
+}
+
+.header .headerSearch input{
+  background: #ebe7e7 !important;
+  opacity: 40%;
+  outline: none !important;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 44px;
+  border: none !important;
+  padding: 0px 20px !important;
+}
+
+.header .headerSearch button{
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 100px !important;
+  border-radius: 50% !important;
+  color: #000;
+}
+
+header .headerSearch button svg{
+  font-size: 25px;
+  margin-top: 28%;
+}
