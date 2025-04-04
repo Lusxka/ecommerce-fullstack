@@ -7,7 +7,7 @@ const CountryDropdown = () => {
         <>
             <Button className='countryDrop'>
                 <div className='info d-flex flex-column'>
-                    <span className='lable'>Localização</span>
+                    <span className='label'>Localização</span>
                     <span className='name'>Brasil</span>
                 </div>
                 <span className='ml-auto'><FaAngleDown /></span>
