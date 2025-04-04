@@ -59,7 +59,6 @@
 
 .logoWrapper img{
   width: 80%;
-  margin-left: -20%;
 }
 
 .headerWrapper .header .part2 .countryDrop{
@@ -117,17 +116,17 @@
 
 .header .headerSearch button{
   position: absolute;
-  top: 0px;
   right: 15px;
   z-index: 100;
   min-width: 40px !important;
   height: 40px !important;
-  width: 100px !important;
+  width: 40px !important;
   border-radius: 50% !important;
   color: #000;
+  margin-top: 2px;
+
 }
 
 header .headerSearch button svg{
   font-size: 25px;
-  margin-top: 28%;
 }
